@@ -83,12 +83,13 @@
   }
   
   .sortable-header:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: #e8e8e8; 
   }
   
   .sortable-header.sort-active {
-    background-color: rgba(0, 123, 255, 0.1);
+    background-color: #cce4ff; 
   }
+  
   
   .sort-indicator {
     margin-left: 5px;
