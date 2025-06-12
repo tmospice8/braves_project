@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+
+# Vue build output
+frontend/dist/
+frontend/node_modules/
+
+# OS files
+.DS_Store
