@@ -1,0 +1,76 @@
+
+.player-header {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .player-header-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .player-header-headshot {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .player-header-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0;
+  }
+  
+  .player-averages {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .player-average-box {
+    background: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 140px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-average-box span {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+  }
+  
+  .player-average-box strong {
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+  
+  .results-count {
+    font-size: 0.9rem;
+    color: #666;
+    background: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+  }
+  
