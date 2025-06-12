@@ -1,3 +1,12 @@
+## Getting Started
+
+To get a local copy of the project up and running:
+
+### 1. Clone the repository
+
+git clone https://github.com/tmospice8/braves_project.git
+cd braves_project
+
 # App Structure
 
 braves_project/
